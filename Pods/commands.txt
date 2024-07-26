@@ -1,0 +1,8 @@
+
+Per runnare:
+
+kubectl apply -f basic.yml
+
+kubectl get pods
+
+kubectl expose pod nginx --port 80 --type NodePort
